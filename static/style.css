@@ -1,0 +1,116 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+.jumbotron {
+    padding: 1rem 2rem;
+}
+.note-primary {
+    background-color: #dfe7f6;
+    border-color: #376fc8;
+    height: 60px;
+}
+.note {
+    --mdb-note-padding: 10px;
+    --mdb-note-border-width: 6px;
+    --mdb-note-border-radius: 5px;
+    --mdb-note-strong-font-weight: 600;
+    padding: var(--mdb-note-padding);
+    border-left: var(--mdb-note-border-width) solid;
+    border-radius: var(--mdb-note-border-radius);
+}
+.sidenav {
+  height: 100%;
+  width: 310px;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  //padding-top: 60px;
+}
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.img-thumbnail{
+  height: 200px;
+  width: 100%;
+  position: relative;
+ }
+.img-thumbnail2{
+  height: 200px;
+  width: 50%;
+  position: relative;
+ }
+.image-checkbox {
+  position: absolute;
+  left: 25px;
+  top: 15px;
+  z-index: 9;
+ }
+ input[type=checkbox]{
+  zoom: 2;
+ }
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+.search_btn{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+#search_history{
+    margin-top: 7%;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.list-group{
+    margin:5px;
+}
+.list-group a{
+    background: #111;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+.list-group a:hover{
+    border-radius: 4px;
+    box-shadow: inset 250px 0 0 0 hsla(0, 0%, 98%, 0.2);
+
+}
+svg{
+        padding-right: 10px;
+    margin-left: -20px;
+}
+.src_hstry
+{
+    padding: 10px;
+}
+.knowldgeby{
+    font-family: 'Cambria Math';
+}

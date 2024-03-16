@@ -1,0 +1,45 @@
+<table>
+    <tr>
+<!--        <th>ID</th>-->
+        <th>Image Name</th>
+        <th>Image URL</th>
+        <th>Labels</th>
+        <th>Search Together</th>
+        <th>Together Unique Labels</th>
+    </tr>
+    {% for data in past_info %}
+    <tr>
+<!--        <td>{{data[0]}}</td>-->
+        <td>{{data[1]}}</td>
+        <td>{{data[2]}}</td>
+        <td>{{data[3]}}</td>
+        <td>{{data[4]}}</td>
+        <td>{{data[5]}}</td>
+
+    </tr>
+    {% endfor %}
+</table>
+
+
+<!--<table>-->
+<!--    <tr>-->
+<!--        <th>Image Name</th>-->
+<!--        <th>Image URL</th>-->
+<!--        <th>Labels</th>-->
+<!--    </tr>-->
+<!--    {% set prev_image_url = None %}-->
+<!--    {% set prev_labels = None %}-->
+<!--    {% for data in past_info %}-->
+<!--    <tr>-->
+<!--        {% if data[1] != prev_image_url %}-->
+<!--            <td rowspan="3">{{data[1]}}</td>-->
+<!--            {% set prev_image_url = data[1] %}-->
+<!--        {% endif %}-->
+<!--        {% if data[3] != prev_labels %}-->
+<!--            <td>{{data[2]}}</td>-->
+<!--            <td>{{data[3]}}</td>-->
+<!--            {% set prev_labels = data[3] %}-->
+<!--        {% endif %}-->
+<!--    </tr>-->
+<!--    {% endfor %}-->
+<!--</table>-->

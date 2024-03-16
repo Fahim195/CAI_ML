@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cloud AI-ML Aide</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <title>Cloud AI-ML Aide</title>
+    <link rel="icon" href="../static/cloud_API_icon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="../static/style.css"/>
+</head>
+<body class="knowldgeby">
+<nav class="navbar " style="background-color: #111111">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">
+      <img src="../static/caiml_logo.png" alt=""  class="d-inline-block align-text-top">
+    </a>
+  </div>
+</nav>
+<div class="container-fliud" style="padding-top: 10px;">
+    <div class="row">
+        <div class="card mx-auto" style="width: 98%;">
+                    <div class="card-header text-white bg-dark">
+                        <h3>Learn More About Google Cloud API</h3>
+                    </div>
+                </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card" style="margin-left: 10px;height: 675px;">
+                <div class="card-header">
+                    Cloud based ML/AI API Provider List
+                </div>
+                <div class="card-body">
+                    <table class="table">
+                        <tbody>
+                        <tr>
+                            <td>Google</td>
+                            <td>Google Cloud API</td>
+                        </tr>
+                        <tr>
+                            <td>Amazon</td>
+                            <td>Amazon ML API</td>
+                        </tr>
+                        <tr>
+                            <td>Microsoft</td>
+                            <td>Microsoft Azure Cognitive Service</td>
+                        </tr>
+                        <tr>
+                            <td>IBM</td>
+                            <td>IBM Watson Discovery API</td>
+                        </tr>
+                        <tr>
+                            <td>Tensorflow</td>
+                            <td>Tensorflow API</td>
+                        </tr>
+                        <tr>
+                            <td>MigML</td>
+                            <td>BigML</td>
+                        </tr>
+                        <tr>
+                            <td>Kairos</td>
+                            <td>Kairos API</td>
+                        </tr>
+                        <tr>
+                            <td>Aylien</td>
+                            <td>Aylien NLP API</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card" style="width: 59rem;">
+                <div class="card-header">
+                    Research on cloud base ML API
+                </div>
+                <div class="card-body">
+                    <h5>We have gone through the possible detailed research on cloud based ML API, and found that several providers offer different ML APIs to facilitate the software development, which requires use of these techniques from a business perspective. It’s obvious that none of them provide free usage or testing of these APIs. But some of them i.e. Google provides a free trial use of these API for 90 days. Therefore we have chosen the best one to use the Google Cloud API considering the free trial use and our requirements, as google covers most of our needs</h5>
+                    <hr>
+                    <h5>We selected the Google cloud APIs for testing our integration capability and understanding challenge in the pathway Our previous google product experience and extensive research we had cracked the way to test Google Cloud ML APIs.Steps are as follows</h5>
+                </div>
+            </div>
+            <br/>
+            <div class="card" style="width: 59rem;">
+                <div class="card-header">
+                    BING WEB SEARCH API
+                </div>
+                <div class="card-body">
+                   <h5>Bing Web Search API is used for this image dataset generation</h5>
+                    <hr>
+                    <p>Our Internal Code Reference in Python Flask</p>
+                    <code>def fetch_keyword_based_image(keyword):<br/>
+                        base_url_being = 'https://www.bing.com/images/search?q='<br/>
+                        api_url = base_url_being + keyword<br/>
+                        response = requests.get(api_url)<br/>
+                        return find_image_urls(response.text, keyword)</code>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <div class="row" style="">
+        <div class="card mx-auto" style="width:98%; padding-bottom: 10px">
+                    <div class="card-header text-white bg-dark">
+                        <h3>How to Access Google Cloud ML API ?</h3>
+                        <br>
+                        <h5>Follow below steps to Create Google Console Account free and get taste of Cloud-based AI-ML API</h5>
+                    </div>
+                </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6" style="padding-left: 10px">
+            <div class="card mx-auto" style="width: 90%;">
+                <div class="card-header">1.Create/configure a google cloud console account</div>
+                <img src="../static/Process to access cloud ML API.png" class="mx-auto card-img-bottom" style="padding-top:40px;"/>
+            </div>
+        </div>
+        <div class=" col-md-6" style="padding-left: 10px">
+                <div class="card mx-auto" style="width: 90%;">
+                    <div class="card-header">2.Create/configure a google administrative account to enable billing(using
+                        credit card) for console accounts. This will allow a 90 day trial period.
+                    </div>
+                    <img src="../static/configure a google administrative account.png" class="mx-auto card-img-bottom" style="padding-top:40px;"/>
+                </div>
+    </div>
+</div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mx-auto" style="width: 90%;">
+                <div class="card-header">3.Enable desired API in the Google Console</div>
+                <img src="../static/Enable desired API in the google console.png" class="mx-auto card-img-bottom" style="padding-top:40px;"/>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mx-auto" style="width: 90%;">
+                <div class="card-header">4.Generate a Service Account Key(to use for the API authentication)</div>
+                <img src="../static/Generate a Service Account Key.png" class="mx-auto card-img-bottom" style="padding-top:40px;"/>
+        </div>
+    </div>
+</div>
+    <br>
+    <div class="row">
+                <div class="card mx-auto" style="width: 94%;">
+                    <div class="card-header">
+                        <h5>Process to Connect with Google VISION API</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>Our Internal Code Reference in Python Flask</p>
+                                            <hr>
+                        <code>def detect_labels_uri(uri):<br/>
+                            image = vision.Image()<br/>
+                            image.source.image_uri = uri<br/>
+                            response = client.label_detection(image=image)<br/>
+                            labels = response.label_annotations<br/>
+                            detected_labels = [label.description for label in labels]<br/>
+                            return detected_labels<br/>
+                        </code>
+                    </div>
+
+                </div>
+    </div>
+<br>
+</body>
+
+<footer class="text-center text-lg-start bg-dark text-muted" style="height: 40px">
+    <p>© 2023 Copyright: CAI-ML.com</p>
+</footer>
+</html>

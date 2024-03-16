@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "quixotic-market-402116",
+  "private_key_id": "2387e32a1e73ed79f48af6c2bad4424530de3833",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC7dbi27s1Ngblk\nWujm5WEjZye0TFrMQANw3Xn3lmo7O7Q5IL0tWn0doPEJ1PQxWpnUYSEp59DxZgh5\nKGBUVIW8P0VU4SM8LIqBPEdS6CmGh78GVMd47gkNDTg3Ar3H6bx7hrBFz4teelks\nkABt9Y8LHlO9XMRsUojAO65KKo32aPxA1G3SJEVWul7QlRya02rkQVHG054d3hzh\nTUv7DYag511DurHxNhhofsD6Jon/9q+IUC0WYVaSFF6e2r4PAFQgJOoscad0iPwP\n/q3UD1YRAg2+IwseHp0SON1MTlmEcjIZuD7srQ7u6EL4+iBMhlKw5o6g6TCq3a/P\n9jw+stPzAgMBAAECggEALmpIkSrxtIYxRDLqRfl3os9w2kiplrcm4vRDtdUNepse\n1aJQlQE5x3NJG1kaGXpIanieQIUAjDTqVi10JI1FC8ZSwWB5W/XfWX52XoXTelb0\nKnolZcDyhsPGLoDEQtKR87f2v2JTLNJ4b/s7z/4kK+mXbGSi0fthls9wKTb+LYuG\noRwOwHvWUfCo6FcV6lenPR8ZJLf15igr0tm92Gz160KBwkW7Zdo/gaS0KnNMjMrY\n0Gl2heCgvzcX/dIqRYF4c/Hkes5hRiRD76afkiP9frgy3Elmse9iP8jtPI0wTTgM\nEac6lvcqbt604ZWAb8XECAXO3qESLhQl2jtadvFBCQKBgQDfVe+P8cMrGmX4cCHf\nlo7r6d+Z/lK+XVSK+aXymMnb414q3rtnvCcAIuGYFJoLeZ9AZU9V1hvRyIQ6CVBn\njLzVhKGlMytseZhy1R+MGwwiqDA+i8FQpearVYZvfeFn5Z1YXsxeafx+/BFDzJul\nrBT4CJBbnDJSJsYNJ5+qmYsVhQKBgQDW4Ii0WFUBWCi/6BP6TulVBFjQ4tEB27wB\ntdbjN7gS7DoIHiuULCqyjII7mtNUSl66mxpaF+HVwM9OtTdquSs3NradOvv8h6eR\n7Ii43LiNv5fm0mU3GJkPPGL2yIjKhUjI+wf0ar7NSSo0SYBpygqXWhLaPS2elqvm\npZsK1ULhFwKBgHKiYoepGXt7XlHKBKkGV6/h6KLbds89ipKXF8XRBPO33fL1Ro41\ndnNMdC0ijftL3yEnnzQ45Sil2rELbNjp1Vdnb60i+awBMe3nVP0OOQlk+PZxt7VU\nonTZPlrl6xfwNPZSGmZv0mm/qoD5ef7suAqkIqzTHMUsH8ZKy1q+2zQdAoGATZIz\nZ7+3uEuGMnlqtONF8s4l7grj3yLfRVLK564WwqYK8SFLJCupoll9Ll1fSz+p4P3b\nTojum0cGz+g1wE5mnoEe/bXsgCbMxK46UVpFOc7f3JE5vuEfaFOpemO8ljf1pbCS\nF5dtmBiApu2d8RLiLe9zfNu3G1hTaGmChi+k/DMCgYEA1C60ANVhMAFKIgiiAFwb\ne47rootD3+wnvr57Uo1Sd0gSdlZxU9deufLb8pjkIboGU7e5Y6Olb0ZQPbtRcZZF\nveLEBrYK2AmkO7AzAOH+BV3UsXsPtoDS+2pSV+GSX5/bQyiEQtC57Ph6fhMrNLaq\nypUrQPsTIp92Ew4x8HsekmM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "fahim-gcc-account@quixotic-market-402116.iam.gserviceaccount.com",
+  "client_id": "105835664399800863918",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fahim-gcc-account%40quixotic-market-402116.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
